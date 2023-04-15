@@ -2,3 +2,7 @@ name: local-wpx
 recipe: wordpress
 config:
   webroot: .wordpress
+services:
+  appserver:
+    build:
+      - composer install
