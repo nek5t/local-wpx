@@ -1,0 +1,24 @@
+{
+    "name": "nek5t/localwpx",
+    "description": "Extendable, composer managed WordPress local development",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Eric Phillips",
+            "email": "github@nekvtcode.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "johnpbloch/wordpress": "^6.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    },
+    "extra": {
+        "wordpress-install-dir": ".wordpress"
+    }
+}
