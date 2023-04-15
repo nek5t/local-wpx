@@ -1,0 +1,4 @@
+name: local-wpx
+recipe: wordpress
+config:
+  webroot: .wordpress
