@@ -18,9 +18,15 @@
             "wpackagist-plugin/*",
             "wpackagist-theme/*"
           ]
+        },
+        {
+            "type": "path",
+            "url": "packages/*",
+            "symlink": true
         }
     ],
     "require": {
+        "localwpx/localwpx-blocks": "@dev",
         "johnpbloch/wordpress": "^6.2",
         "wpackagist-plugin/query-monitor": "*"
     },

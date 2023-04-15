@@ -1,0 +1,14 @@
+{
+    "name": "localwpx/localwpx-blocks",
+    "description": "Example blocks plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Eric Phillips",
+            "email": "github@nekvtcode.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

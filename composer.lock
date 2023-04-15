@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "975d323ba763ceb56062d47e2c82dff3",
+    "content-hash": "c6c0a052c758a0e187c1839ec592799f",
     "packages": [
         {
             "name": "composer/installers",
@@ -300,6 +300,29 @@
             "time": "2020-04-16T21:44:57+00:00"
         },
         {
+            "name": "localwpx/localwpx-blocks",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "packages/blocks",
+                "reference": "18c2bbb4b4684e2ef7ad313df265096ef272a873"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Phillips",
+                    "email": "github@nekvtcode.com"
+                }
+            ],
+            "description": "Example blocks plugin",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "wpackagist-plugin/query-monitor",
             "version": "3.12.1",
             "source": {
@@ -321,7 +344,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "localwpx/localwpx-blocks": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
