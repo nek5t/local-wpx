@@ -1,6 +1,6 @@
 # Local WPX
 
-Extendable, composer managed WordPress local development. Served up by Lando.
+Extendable, composer managed WordPress local development. Served up by [Lando](https://lando.dev/).
 
 ## Usage
 
