@@ -26,3 +26,13 @@ disabled_commands:
   - theme delete
   - theme install
   - theme update
+config create:
+  # Lando defaults
+  dbname: wordpress
+  dbuser: wordpress
+  dbpass: wordpress
+  dbhost: database
+  extra-php: |
+    define( 'WP_DEBUG', true );
+    define( 'WP_ENVIRONMENT_TYPE', 'local' );
+    define( 'SCRIPT_DEBUG', true );
