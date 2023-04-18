@@ -17,8 +17,6 @@ disabled_commands:
   - plugin update
   - scaffold block
   - scaffold child-theme
-  - scaffold plugin
-  - scaffold plugin-tests
   - scaffold post-type
   - scaffold taxonomy
   - scaffold theme-tests
@@ -36,3 +34,5 @@ config create:
     define( 'WP_DEBUG', true );
     define( 'WP_ENVIRONMENT_TYPE', 'local' );
     define( 'SCRIPT_DEBUG', true );
+scaffold plugin:
+  dir: /app/packages
