@@ -3,6 +3,19 @@ recipe: wordpress
 config:
   webroot: .wordpress
 services:
+  node:
+    type: node:18
+    build_as_root:
+      - corepack enable
+      - corepack prepare pnpm@latest --activate
+      - pnpm install
   appserver:
     build:
       - composer install
+tooling:
+  pnpm:
+    service: node
+  pnpx:
+    service: node
+exclude:
+  - .pnpm-store
