@@ -1,7 +1,7 @@
 path: /app/.wordpress
 disabled_commands:
   - core download
-  #- core install
+  - core install
   - core multisite-convert
   - core multisite-install
   - core update
