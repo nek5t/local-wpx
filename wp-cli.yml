@@ -17,7 +17,6 @@ disabled_commands:
   - plugin update
   - scaffold block
   - scaffold child-theme
-  - scaffold taxonomy
   - scaffold theme-tests
   - scaffold underscores
   - theme delete
@@ -36,4 +35,6 @@ config create:
 scaffold plugin:
   dir: /app/packages
 scaffold post-type:
+  textdomain: localwpx
+scaffold taxonomy:
   textdomain: localwpx
