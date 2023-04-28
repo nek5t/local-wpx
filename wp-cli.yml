@@ -17,7 +17,6 @@ disabled_commands:
   - plugin update
   - scaffold block
   - scaffold child-theme
-  - scaffold post-type
   - scaffold taxonomy
   - scaffold theme-tests
   - scaffold underscores
@@ -36,3 +35,5 @@ config create:
     define( 'SCRIPT_DEBUG', true );
 scaffold plugin:
   dir: /app/packages
+scaffold post-type:
+  textdomain: localwpx
