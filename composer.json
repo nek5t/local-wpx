@@ -1,5 +1,5 @@
 {
-    "name": "nek5t/local-wpx",
+    "name": "nek5t/localwpx",
     "description": "Extendable, composer managed WordPress local development",
     "type": "project",
     "license": "GPL",
