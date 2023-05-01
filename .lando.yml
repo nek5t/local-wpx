@@ -12,7 +12,7 @@ services:
       - pnpm install
   appserver:
     build:
-      - composer install
+      - find . -maxdepth 3 -type f -name composer.json -execdir composer install --no-interaction \;
 tooling:
   pnpm:
     service: node
