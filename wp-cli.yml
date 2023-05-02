@@ -29,8 +29,11 @@ config create:
   dbpass: wordpress
   dbhost: database
   extra-php: |
-    define( 'WP_DEBUG', true );
     define( 'WP_ENVIRONMENT_TYPE', 'local' );
+    define( 'WP_DISABLE_FATAL_ERROR_HANDLER', true );
+    define( 'WP_DEBUG', true );
+    define( 'WP_DEBUG_LOG', true );
+    define( 'WP_DEBUG_DISPLAY', true );
     define( 'SCRIPT_DEBUG', true );
 scaffold plugin:
   dir: /app/packages
